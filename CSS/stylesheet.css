@@ -1,0 +1,130 @@
+header{
+    height: 50px;
+    background-color: #998860;
+    display:block;
+}
+
+a{
+    font-family: Montserrat, verdana, sans-serif;
+    text-decoration: none;
+    display:inline-block;
+    padding:5px;
+    font-size: 18px;
+    font-weight:500;
+    width: 25%;
+    text-align:center;
+    line-height:40px;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+body{
+    font-family: Montserrat, verdana, sans-serif;
+    color:black;
+    text-align: center;
+    background-color:#fff8e7;
+   
+}
+
+h1{
+    font-size:26px;
+    margin: 50px 0px 25px 0px;
+    padding: 5px;
+    color: #3B4945;
+}
+
+p{
+    font-size:15px;
+    width:600px;
+    margin: auto;
+    padding: 5px;
+}
+
+img {
+    width:20%;
+    height:auto;
+    margin:15px;
+    padding: 5px;
+}
+
+footer{
+    padding:50px 5px;
+    font-size:13px;
+}
+
+table{
+    font-family: Montserrat, verdana, sans-serif;
+    display: inline-block;
+    padding:5px;
+    font-size: 15px;
+    font-weight:500;
+    background-color: #AABFAC75;
+    box-shadow: 2px 2px 5px #AABFAC;
+    border-radius:4px;
+}
+
+td, th{
+   padding: 10px 30px;
+   text-align: left;
+}
+
+form{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color:#AABFAC75;
+    box-shadow: 2px 2px 5px #AABFAC;
+    width:66%;
+    margin: 50px auto;
+    padding: 0px 0px 50px 0px;
+}
+
+
+input[type="text"], input[type="email"], textarea, button{
+    display:block;
+    box-sizing: border-box;
+    font-family:montserrat, sans-serif;
+    margin:8px 0px;
+    padding: 5px 5px;
+    width: 66%;
+    min-width: 300px;
+    border:none;
+    border-radius:4px;
+    box-shadow: 2px 2px 10px rgba(211, 211, 211, 0.597);
+}
+
+
+textarea{
+    height: 100px;
+}
+
+button{
+    background-color: #E26203;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    padding: 10px 0px;
+    margin: 5px 0px 0px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius:4px;
+    border:1px solid #e2640300;
+    box-shadow: 0px 0px 0px grey;
+}
+
+button:active {
+    background-color: #3B4945;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', sans-serif;
+    padding: 10px 0px;
+    margin: 5px 0px 0px 0px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius:4px;
+    border:1px solid #e2640300;
+    box-shadow: 0px 0px 0px grey;
+}
